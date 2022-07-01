@@ -17,6 +17,7 @@ function Cart() {
         setTimeout(() => {
             setButtonText("Place Order")
             emptyCart()
+            alert("Order was placed successfully")
         }, 2000)
     }
     
